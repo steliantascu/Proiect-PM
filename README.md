@@ -54,10 +54,10 @@ pio run --target upload
 
 ## Calibrare
 
-In `src/main.c` modifica:
+In `src/main.c` pot modifica anumite stari pentru testare mai buna:
 
 ```c
-#define PRAG_ZGOMOT   600   // creste daca e prea sensibil
+#define PRAG_ZGOMOT   600   // cresc daca e prea sensibil
 #define DISTANTA_MAX   50   // distanta trezire in cm
 #define PAROLA_BATAI    3   // numar batai pentru parola
 #define FEREASTRA_MS 3000   // timp asteptare parola (ms)
@@ -65,7 +65,7 @@ In `src/main.c` modifica:
 
 ## Laboratoare acoperite
 
-| Lab | Ce face in proiect |
+| Lab | Folosit in proiect |
 |---|---|
 | Lab 2 | INT0 pentru masurarea ecoului HC-SR04 |
 | Lab 3 | Timer 1 Fast PWM 50Hz pentru servomotoare |
